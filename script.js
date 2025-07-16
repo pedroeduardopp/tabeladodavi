@@ -10,6 +10,17 @@ const elementos = [
   { numero: 8, simbolo: "O", nome: "Oxigênio", grupo: 16, periodo: 2 },
   { numero: 9, simbolo: "F", nome: "Flúor", grupo: 17, periodo: 2 },
   { numero: 10, simbolo: "Ne", nome: "Neônio", grupo: 18, periodo: 2 },
+  { numero: 11, simbolo: "Na", nome: "Sódio", grupo: 1, periodo: 3 },
+  { numero: 12, simbolo: "Mg", nome: "Magnésio", grupo: 2, periodo: 3 },
+  { numero: 13, simbolo: "Al", nome: "Alumínio", grupo: 13, periodo: 3 },
+  { numero: 14, simbolo: "Si", nome: "Silício", grupo: 14, periodo: 3 },
+  { numero: 15, simbolo: "P", nome: "Fósforo", grupo: 15, periodo: 3 },
+  { numero: 16, simbolo: "S", nome: "Enxofre", grupo: 16, periodo: 3 },
+  { numero: 17, simbolo: "Cl", nome: "Cloro", grupo: 17, periodo: 3 },
+  { numero: 18, simbolo: "Ar", nome: "Argônio", grupo: 18, periodo: 3 },
+  { numero: 19, simbolo: "K", nome: "Potássio", grupo: 1, periodo: 4 },
+  { numero: 20, simbolo: "Ca", nome: "Cálcio", grupo: 2, periodo: 4 },
+  // [... adicionaria os demais até o 118 ...]
 ];
 
 const tabela = document.getElementById("tabela");
